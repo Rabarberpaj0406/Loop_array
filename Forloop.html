@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <script>
+
+     let farger_array = [" Blå ", " Grön ", " Röd "];
+
+     for(let i = 0; i < farger_array.length; i++)
+     {
+         console.log(farger_array[i]);
+     }
+ 
+     let numb_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+     let summa = 0;
+
+     function array_function (array_1)
+     {
+
+         for(let x = 0; x < array_1.length; x++)
+         {
+
+             summa += array_1[x];         
+
+         }
+
+         return summa;
+    
+     }
+
+     console.log(array_function(numb_array));
+
+  </script>
+    
+</body>
+</html>
